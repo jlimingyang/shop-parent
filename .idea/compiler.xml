@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="anhshop" />
+        <module name="com.item1024.parent" />
+        <module name="shop-common" />
+        <module name="shop-manager-dao" />
+        <module name="shop-manager-interface" />
+        <module name="shop-manager-pojo" />
+        <module name="shop-manager-service" />
+        <module name="shop-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="anhshop" target="1.7" />
+      <module name="com.item1024.parent" target="1.7" />
+      <module name="shop-common" target="1.8" />
+      <module name="shop-manager" target="1.8" />
+      <module name="shop-manager-dao" target="1.8" />
+      <module name="shop-manager-interface" target="1.8" />
+      <module name="shop-manager-pojo" target="1.8" />
+      <module name="shop-manager-service" target="1.8" />
+      <module name="shop-manager-web" target="1.8" />
+      <module name="shop-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
